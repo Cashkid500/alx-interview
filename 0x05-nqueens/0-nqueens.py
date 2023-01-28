@@ -67,7 +67,7 @@ if N < 4:
     sys.exit(1)
 
 queen = NQueen(N)
- res = queen.nQueen(1)
+res = queen.nQueen(1)
 
 for i in res:
     print(i)
